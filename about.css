@@ -1,0 +1,40 @@
+/* about card */
+.about-us-container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image:url("/public/images/lav1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;;
+}
+
+.about-us-container .about-content {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.about-us-container .section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-container h2, h3 {
+  color:black;
+}
+
+.about-us-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us-container ul li:before {
+  content: "\2022";
+  color:black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}

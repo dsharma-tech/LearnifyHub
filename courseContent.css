@@ -1,0 +1,128 @@
+/* courseContent.css */
+
+.course-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.course-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.back-button {
+  background-color: #b185db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #ff4d6d;
+}
+
+.course-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-details h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.modules-list {
+  margin-bottom: 20px;
+}
+
+.module-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.module-item:hover {
+  background-color: #e0e0e0;
+}
+
+.video-player {
+  flex: 2;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* Aspect ratio 16:9 */
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.quiz-section {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.quiz-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+.quiz-question h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.quiz-option {
+  margin-bottom: 10px;
+}
+
+.quiz-option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.start-quiz-button,
+.submit-quiz-button {
+  background-color: #b185db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.start-quiz-button,
+.submit-quiz-button:hover {
+  background-color: #ff4d6d;
+}
+
+.quiz-results {
+  margin-top: 20px;
+}
+
+.quiz-results h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.quiz-results p {
+  font-size: 16px;
+}

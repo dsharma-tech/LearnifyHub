@@ -1,0 +1,60 @@
+/* enroll.css */
+.enroll-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.enroll-container .back-button {
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  background-color: #b185db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.enroll-container .course-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.enroll-container .course-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.enroll-container .course-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.enroll-container .course-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.enroll-container .course-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.enroll-container .course-details button {
+  background-color: #b185db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.enroll-container .course-details button:hover {
+  background-color: #ff4d6d;
+}
